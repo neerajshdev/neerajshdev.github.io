@@ -8,16 +8,10 @@ import { PROFILE } from '../../../constants/profile';
 // In a real app, this would be loaded from a database or API
 const projectsData = [
   {
-    id: 'project1',
-    name: 'Project Name 1',
-    description: 'A detailed description of the project, including its purpose, features, and the problem it solves.',
-    fullDescription: `
-      This is a more detailed explanation of the project that can span multiple paragraphs.
-      
-      It can include information about the technologies used, challenges faced, and solutions implemented.
-      
-      The project might have had specific requirements or constraints that required creative solutions.
-    `,
+    id: '1',
+    name: 'Video Downloader for Instagram and Facebook',
+    description: 'Uses WebView to display the content and capture the videos to download them.',
+    fullDescription: `This app is a video downloader with in built web browser to display the content and capture the videos to download them.`,
     image: '/images/project1.jpg',
     technologies: ['Kotlin', 'MVVM', 'Retrofit', 'Room', 'LiveData'],
     github: 'https://github.com/',
