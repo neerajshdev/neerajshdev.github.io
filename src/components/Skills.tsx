@@ -45,7 +45,7 @@ export default function Skills() {
               });
             });
           }
-        } catch (err) {
+        } catch {
           // Optionally log error
         }
       }

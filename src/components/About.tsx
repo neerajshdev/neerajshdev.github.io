@@ -19,7 +19,7 @@ export default function About() {
               origin: 'bottom',
             });
           }
-        } catch (err) {
+        } catch {
           // Optionally log error
         }
       }

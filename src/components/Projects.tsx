@@ -57,7 +57,7 @@ export default function Projects() {
               });
             });
           }
-        } catch (err) {
+        } catch {
           // Optionally log error
         }
       }

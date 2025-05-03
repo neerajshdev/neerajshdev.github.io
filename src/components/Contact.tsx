@@ -138,7 +138,7 @@ export default function Contact() {
             <h3>
               <span className="checkmark">✔️</span> Thank You!
             </h3>
-            <p>Your message has been received. I'll get back to you soon!</p>
+            <p>Your message has been received. I&apos;ll get back to you soon!</p>
             <button className="btn primary-btn" onClick={handleSendAnother}>
               Send Another Message
             </button>

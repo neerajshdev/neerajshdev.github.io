@@ -30,7 +30,7 @@ export default function Hero() {
               origin: 'right',
             });
           }
-        } catch (err) {
+        } catch {
           // Optionally log error
         }
       }
