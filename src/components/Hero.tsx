@@ -41,7 +41,7 @@ export default function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-content" ref={contentRef}>
-        <h1>Hi, I'm <span className="highlight">{PROFILE.NAME}</span></h1>
+        <h1>Hi, I&apos;m <span className="highlight">{PROFILE.NAME}</span></h1>
         <h2>Android Developer</h2>
         <p>Creating innovative mobile experiences with Kotlin and Java</p>
         <div className="cta-buttons">
